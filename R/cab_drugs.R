@@ -81,7 +81,7 @@ cab_drugs_events <- function(con,
     #filter(grepl(name_part,Name,ignore.case=TRUE)) |>
     #have to collect before str_detect "not available in this SQL variant"
     filter(stringr::str_detect(stringr::str_to_lower(Name),stringr::str_to_lower(name_part))) |>
-    join_mrn(con = con, name_dk = "PatientDurableKey") |>
+    cab_mrn(con = con, name_dk = "PatientDurableKey") |>
     filter(PrimaryMrn %in% mrns)
 
 }
