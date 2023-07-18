@@ -1,10 +1,11 @@
 Package: caboodler
-Title: What the Package Does (One Line, Title Case)
+Title: Eases access to Caboodle data warehouse from Epic Electronic Health Record.
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    c(
+    person("Andy", "South", email = "southandy@gmail.com", role = c("aut", "cre"),comment = c(ORCID = "0000-0003-4051-6135"))
+    )
+Description: For querying Electronic Health Record data in Epic Caboodle data warehouse.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
