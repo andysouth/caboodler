@@ -1,5 +1,5 @@
 Package: caboodler
-Title: Eases access to Caboodle data warehouse from Epic Electronic Health Record.
+Title: Eases access to Caboodle data warehouse from Epic Electronic Health Record
 Version: 0.0.0.9000
 Authors@R: 
     c(
