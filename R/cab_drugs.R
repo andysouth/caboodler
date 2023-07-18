@@ -1,6 +1,6 @@
 #' get drugs records from different places in caboode
 #'
-#' @param con connection to caboodle (or maybe clarity too later)
+#' @param con database connection to caboodle
 #' @param tablefrom 'orders', 'events', 'components'
 #' @param patients 'in', 'out', 'both'
 #' @param dayfrom optional 20230601 #caboodle date format

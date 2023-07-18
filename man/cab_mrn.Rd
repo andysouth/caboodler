@@ -9,6 +9,8 @@ cab_mrn(df, con, name_dk = "DurableKey", name_mrn = "PrimaryMrn")
 \arguments{
 \item{df}{dataframe containing a durablekey column}
 
+\item{con}{database connection to caboodle}
+
 \item{name_dk}{optionally specify durable key name if it is not "DurableKey"}
 
 \item{name_mrn}{optionally specify mrn column name in output if not "PrimaryMrn"}

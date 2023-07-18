@@ -1,6 +1,7 @@
 #' join PrimaryMrn from Caboodle onto passed dataframe
 #'
 #' @param df dataframe containing a durablekey column
+#' @param con database connection to caboodle
 #' @param name_dk optionally specify durable key name if it is not "DurableKey"
 #' @param name_mrn optionally specify mrn column name in output if not "PrimaryMrn"
 #' @examples

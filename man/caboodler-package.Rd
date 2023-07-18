@@ -4,7 +4,7 @@
 \name{caboodler-package}
 \alias{caboodler}
 \alias{caboodler-package}
-\title{caboodler: Eases access to Caboodle data warehouse from Epic Electronic Health Record.}
+\title{caboodler: Eases access to Caboodle data warehouse from Epic Electronic Health Record}
 \description{
 For querying Electronic Health Record data in Epic Caboodle data warehouse.
 }

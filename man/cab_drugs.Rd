@@ -16,7 +16,7 @@ cab_drugs(
 )
 }
 \arguments{
-\item{con}{connection to caboodle (or maybe clarity too later)}
+\item{con}{database connection to caboodle}
 
 \item{tablefrom}{'orders', 'events', 'components'}
 
