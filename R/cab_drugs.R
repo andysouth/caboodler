@@ -8,6 +8,7 @@
 #' @param name_part e.g. 'POSACONAZOLE'
 #' @param mrns optional patient mrns
 #' @param collect whether to collect results from database at end
+#' @export
 cab_drugs <- function(con,
                       tablefrom = "events",
                       patients = "out",
@@ -40,6 +41,7 @@ cab_drugs <- function(con,
 #' @param name_part e.g. 'POSACONAZOLE'
 #' @param mrns optional patient mrns
 #' @param collect whether to collect results from database at end
+#' @export
 #' @examples
 #' # example code
 cab_drugs_events <- function(con,
